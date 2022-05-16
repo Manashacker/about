@@ -88,6 +88,7 @@ nav ul li a{
     color: white;
     margin-top: 6%;
     margin-left: 5%;
+    margin-right: 20px;
 }
 .crt{
     margin-top: 8%;
@@ -141,6 +142,112 @@ nav ul li a{
 .banner-btn a:hover{
     color: white;
 }
+.versions{
+    background: white;
+    
+}
+.versions h1{
+    color: rgb(7, 164, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(7, 164, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    left: 45%;
+    margin-top: 5%;
+    font-size: 45px;
+}
+.versions h1::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(7, 255, 193),white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.versions p{
+    color:rgba(0, 162, 255, 0.87);
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.versions h3{
+    color: black;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+    
+}
+.aboutme{
+    background-color: rgb(255, 221, 221);
+    height: 160vh;
+}
+.aboutme h1{
+    color: rgb(7, 164, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(7, 164, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    left: 45%;
+    margin-top: 5%;
+    font-size: 45px;
+}
+.aboutme h1::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(7, 255, 193),white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.aboutme h3{
+    margin-top: 30px;
+    color: black;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.aboutme p{
+    margin-top: 40px;
+    color: rgb(33, 158, 231);
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-right:40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 770px){
     .container h1{
         margin-top: 10%;
@@ -163,5 +270,21 @@ nav ul li a{
     }
     #btn1{
         left: 60%;
+    }
+    .versions h1{
+        font-size: 30px;
+        left: 40%;
+    }
+    .versions p{
+        text-align: center;
+    }
+    .aboutme{
+        height: 2000px;
+        text-align: center;
+    }
+    .aboutme h1{
+        font-size: 25px;
+        margin-right: 350px;
+        margin-top: 20px
     }
 }
