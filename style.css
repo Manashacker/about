@@ -15,6 +15,7 @@
     font-family: 'Poppins', sans-serif;
     /* display: flex; */
     /* align-items: center; */
+    width: 100%;
    
 }
 .container h1{
@@ -286,5 +287,11 @@ nav ul li a{
         font-size: 25px;
         margin-right: 350px;
         margin-top: 20px
+    }
+    #menu{
+        margin-right: 5%;
+    }
+    .container{
+        width: 100%;
     }
 }
